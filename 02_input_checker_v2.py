@@ -23,7 +23,7 @@ def user_choice():
             return "image"
 
         elif response == "i":
-            want_integer = input("Press <enter> for an integer or any key for an image")
+            want_integer = input("Press <enter> for an integer or any key for an image: ")
             if want_integer == "":
                 return "integer"
             else:
@@ -33,6 +33,7 @@ def user_choice():
             # if response is not valid, output an error
             print("Please choose a valid file type!")
             print()
+
 
 
 # Main routine goes here
